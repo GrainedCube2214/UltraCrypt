@@ -1,0 +1,34 @@
+This is the encryption/decryption tool:
+How to use:
+
+ String version:
+    Choose the protocol from the dropdown menu and input a string and a key
+    (only for caesar cipher)(numric key for normal and alphabetic for advanced)
+    Press go to execute.
+
+ File version:
+    Choose the file you wish to encrypt/decrypt by pressing select file.
+    Choose the protocol from the dropdown menu and input a key
+    (only for caesar cipher)(numric key for normal and alphabetic for advanced) and the file path for the output
+    (eg: C:/Users:/user/output.txt)
+Note: When decrypting, use the same key used during encryption to get back the desired output.
+
+Protocols:
+Morse code: Converts a given string to morse code. use only alphabets and spaces.
+
+Caesar cipher: Increases the ASCII value of every character in the given string by the given key.
+
+Advanced caesar cipher: Increases the ASCII value of every character in the given string as given below:
+take a sring in str, an alphabetic key in key. Based on the number of characters in key, each charcter in str in increased by the corresponding alphabet order of that position in the key.
+example: str = 'hello', key  = 'adc'
+output: iioms
+process: the first letter in str ('h') is increaed in ascii value by alphabetical position of a (ie. 1)
+the second letter is increased in ascii value by alphabetical position of d (ie. 4)
+the third letter is incrased by in ascii value by alphabetical position of c (ie. 3)
+this cycle is repeated for the fourth, fifth, sixth letter and so on.
+
+Homo-phonic substitution cipher: This replaces a particular character by a predefined key.
+
+Four square cipher: <to be explained live>
+
+At_bash cipher: THis replaaces each character in the string by the corresponding alphabet in the reverse alphabetic order (ie a is replaced by z, b by y, etc.)

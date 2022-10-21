@@ -1,0 +1,21 @@
+About:
+Created by: Aditya S, Akshat K, Ananth T A, Barath S
+
+UltraCrypt is an encryption and graphing tool made with Python.
+
+Menus:
+
+Encryption and Decryption:
+These menus can be selected to Encrypt/Decrypt existing files.
+Secect the encryption/decryption protocol you wish to use from 
+the Dropdown menu. And select the file you wish to encrypt/decrypt.
+
+Graphing:
+This menu helps you graph the frequencies of letters 
+occuring in a given file.
+Enter the name of the file with the extension,
+and select show graph.
+
+UI Settings:
+You can change the UI music that plays and change the background image here. After your choice, click 'Apply' and click 'Toggle Music' in the main menu to play your selection. Select fullscreen to set the app to fullscreen mode. 
+
